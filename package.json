@@ -1,0 +1,42 @@
+{
+  "name": "fkit",
+  "version": "1.0.0",
+  "description": "frontend kit for composition UI interface",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwnow/fkit.git"
+  },
+  "keywords": [
+    "fkit",
+    "frontend",
+    "ui",
+    "kit",
+    "composition",
+    "cab"
+  ],
+  "author": "vostroknutov@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwnow/fkit/issues"
+  },
+  "homepage": "https://github.com/iwnow/fkit#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }  
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.27.5",
+    "tslint": "^5.20.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
